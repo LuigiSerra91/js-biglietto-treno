@@ -12,8 +12,7 @@ console.log('ciao');
 let km;
 let age;
 let price = 0.21;
-let final_price_20 = (km * price - (km * price * 20 / 100));
-let final_price_40 = (km * price - (km * price * 40 / 100));
+
 
 
 
@@ -32,9 +31,11 @@ console.log(age);
 
 //terza fase: elaborare i DataView.
 if (age < 18 ){
-    ticket = alert(final_price_20);
+    let final_price_20 = (km * price - (km * price * 20 / 100));
+    ticket = alert(final_price_20.toFixed(2));
 } else if (age > 65) {
-    ticket = alert(final_price_40);
+    let final_price_40 = (km * price - (km * price * 40 / 100));
+    ticket = alert(final_price_40.toFixed(2));
 }
 
 console.log(ticket);
