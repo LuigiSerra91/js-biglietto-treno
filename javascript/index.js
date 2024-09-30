@@ -13,13 +13,6 @@ let km;
 let age;
 let price = 0.21;
 
-
-
-
-
-
-
-
 //seconda fase raccolta dati.
 
 km = prompt("ciao, inserisci i chilometri")
