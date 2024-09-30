@@ -12,9 +12,14 @@ console.log('ciao');
 let km;
 let age;
 let price = 0.21;
-let final_price;
-let discount_20;
-let discount_40;
+
+let discount_20 = (km * price - (km * price * 20 / 100));
+let discount_40 = (km * price - (km * price * 40 / 100));
+
+
+
+
+
 //seconda fase raccolta dati.
 
 km = prompt("ciao, inserisci i chilometri")
@@ -23,16 +28,19 @@ console.log(km);
 console.log(age);
 
 
+
 //terza fase: elaborare i DataView.
 
 if (age < 18 ) {
-    final_price = alert(km * price - (km * price * 20 / 100));
+    message = alert(discount_20)
     
 } else if (age > 65) {
-    final_price = alert(km * price - (km * price * 40 / 100));
+    message = alert(discount_40)
 }
 
-console.log(final_price);
+console.log(message);
+
+
 
 
 
