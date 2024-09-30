@@ -18,5 +18,10 @@ let age;
 km = prompt("ciao, inserisci i chilometri")
 age = prompt("ciao, inserisci l'età")
 
+console.log(km);
+console.log(age);
+
+
+
 
 
