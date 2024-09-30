@@ -11,13 +11,14 @@ console.log('ciao');
 
 let km;
 let age;
-
+let price = 0.21;
+let final_price;
 
 //seconda fase raccolta dati.
 
 km = prompt("ciao, inserisci i chilometri")
-age = prompt("ciao, inserisci l'età")
-
+age = prompt("ciao, inserisci l'età del passeggero")
+fianl_price =alert(km * price)
 console.log(km);
 console.log(age);
 
@@ -25,3 +26,11 @@ console.log(age);
 
 
 
+//terza fase: elaborare i DataView.
+
+
+
+
+
+ 
+    
