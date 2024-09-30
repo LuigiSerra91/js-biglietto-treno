@@ -7,5 +7,16 @@
 
 console.log('ciao');
 
+//prima fase di preparazione.
+
+let km;
+let age;
+
+
+//seconda fase raccolta dati.
+
+km = prompt("ciao, inserisci i chilometri")
+age = prompt("ciao, inserisci l'età")
+
 
 
