@@ -15,8 +15,8 @@ let price = 0.21;
 
 //seconda fase raccolta dati.
 
-km = prompt("ciao, inserisci i chilometri")
-age = prompt("ciao, inserisci l'età del passeggero")
+km = Number(prompt("ciao, inserisci i chilometri"))
+age = Number(prompt("ciao, inserisci l'età del passeggero"))
 console.log(km);
 console.log(age);
 
