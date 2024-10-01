@@ -19,6 +19,11 @@ km = Number(prompt("ciao, inserisci i chilometri"))
 age = Number(prompt("ciao, inserisci l'età del passeggero"))
 console.log(km);
 console.log(age);
+let normal_price = km * price;
+console.log(normal_price);
+
+
+
 
 
 
@@ -29,6 +34,9 @@ if (age < 18 ){
 } else if (age > 65) {
     let final_price_40 = (km * price - (km * price * 40 / 100));
     ticket = alert(final_price_40.toFixed(2));
+}
+else {
+    ticket = alert(normal_price.toFixed(2));
 }
 
 console.log(ticket);
